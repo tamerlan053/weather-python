@@ -23,3 +23,9 @@ def get_weather(city, api_key):
                           f"Pressure: {pressure} hPa\n"
                           f"Humidity: {humidity}%\n"
                           f"Weather: {description}")
+        
+        return weather_report
+    else:
+        return None
+
+def show_weather():
