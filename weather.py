@@ -37,3 +37,6 @@ def show_weather():
         messagebox.showinfo("Weather Information", weather)
     else:
         messagebox.showerror("Error", "City not found or API request failed.")
+
+root = tk.Tk()
+root.title("Weather Forecast")
