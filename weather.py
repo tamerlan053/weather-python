@@ -29,3 +29,6 @@ def get_weather(city, api_key):
         return None
 
 def show_weather():
+    city = city_entry.get()
+    api_key = "YOUR_API_KEY"
+    weather = get_weather(city, api_key)
