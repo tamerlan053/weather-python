@@ -32,3 +32,8 @@ def show_weather():
     city = city_entry.get()
     api_key = "YOUR_API_KEY"
     weather = get_weather(city, api_key)
+    
+    if weather:
+        messagebox.showinfo("Weather Information", weather)
+    else:
+        messagebox.showerror("Error", "City not found or API request failed.")
