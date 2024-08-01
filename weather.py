@@ -46,3 +46,8 @@ city_label.pack(pady=10)
 
 city_entry = tk.Entry(root)
 city_entry.pack(pady=5)
+
+show_weather_button = tk.Button(root, text="Show Weather", command=show_weather)
+show_weather_button.pack(pady=20)
+
+root.mainloop()
