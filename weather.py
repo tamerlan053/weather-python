@@ -43,3 +43,6 @@ root.title("Weather Forecast")
 
 city_label = tk.Label(root, text="Enter city name:")
 city_label.pack(pady=10)
+
+city_entry = tk.Entry(root)
+city_entry.pack(pady=5)
